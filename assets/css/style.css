@@ -332,14 +332,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (max-width: 575px) {
   #hero {
-    height:52vh;
+    height:48vh;
   }
   #hero h1 {
-    font-size: 40px;
+    font-size: 21px;
   }
   #hero h2 {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 0;
   }
 }
 
@@ -584,6 +584,13 @@ section {
 
 .bxs-graduation:before {
   line-height: 1;
+}
+
+@media (max-width: 575px) {
+  .about .image {
+    min-height:360px;
+    margin-bottom:25px;
+  }
 }
 
 /*--------------------------------------------------------------
