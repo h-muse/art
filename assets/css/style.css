@@ -1005,6 +1005,12 @@ section {
   background-color: #ffb727;
   color:white;
 }
+@media (max-width: 768px) {
+  .calligraphy-card {
+    margin-top:20px;
+  }
+}
+
 
 /*--------------------------------------------------------------
 # Contact Me
