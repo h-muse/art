@@ -331,6 +331,9 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 @media (max-width: 575px) {
+  #hero {
+    height:52vh;
+  }
   #hero h1 {
     font-size: 40px;
   }
@@ -361,7 +364,7 @@ h1, h2, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 40px 0;
 }
 
 .section-bg {
@@ -577,6 +580,10 @@ section {
   position: absolute;
   left: 110px;
   top: 0px;
+}
+
+.bxs-graduation:before {
+  line-height: 1;
 }
 
 /*--------------------------------------------------------------
@@ -1002,6 +1009,16 @@ section {
 /*--------------------------------------------------------------
 # Contact Me
 --------------------------------------------------------------*/
+.contact .map-box {
+  box-shadow: 0 0 30px rgb(214 215 216 / 60%);
+  color: #777777;
+  padding: 10px;
+}
+
+.contact .map-box h3 {
+  font-size: 20px;
+}
+
 .contact .info-box {
   color: #444444;
   text-align: center;
@@ -1204,4 +1221,9 @@ section {
 }
 #footer .credits {
   font-size: 13px;
+}
+
+
+#map {
+  height: 360px;
 }
